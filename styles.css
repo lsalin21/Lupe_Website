@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9934348739495799) 0%,
+    rgba(22, 91, 115, 1) 80%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+  color: aquamarine;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#logo {
+  color: aquamarine;
+  font-weight: 200;
+  letter-spacing: 3px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+}
+
+.nav-link {
+  color: #f0efed;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.nav-link:hover{
+  color: aquamarine;
+}
+
+#activePage {
+  color: gray;
+}
+
+.custom-toggler.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+a svg{
+  width: 1.5em;
+}
+
+
+@media (max-width: 768px){
+  body{
+    background: black;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+  }
+}
